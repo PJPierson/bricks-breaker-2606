@@ -75,7 +75,7 @@ void Game::Render() const
 	ball.Draw();
 
 	// TODO #3 - Update render to render all bricks
-	for (size_t i = 0; ico1 < bricks.size(); i++)
+	for (size_t i = 0; i < bricks.size(); i++)
 	{
 		bricks[i].Draw();
 	}
